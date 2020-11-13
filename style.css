@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: #e8e8e8;
+}
+
+.center{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.description{
+    display: flex;
+    flex-direction: row;
+}
+
+h1{
+    margin: 50px;
+    font-size: 40px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+h2, h3{
+    margin: 25px 75px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+/* canvas{
+    width: 800px;
+    height: 600px;
+    border: 3px;
+    border-color: black;
+} */
